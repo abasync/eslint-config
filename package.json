@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ESLing and Prettier with TypeScript configurations used by Kroo.",
   "license": "MIT",
+  "private": false,
   "author": {
     "name": "Kroo Tech",
     "email": "tech@kroo.com.br",
