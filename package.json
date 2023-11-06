@@ -1,6 +1,6 @@
 {
   "name": "@kroo-tech/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLing and Prettier with TypeScript configurations used by Kroo.",
   "license": "MIT",
   "private": false,
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/kroo-tech/eslint-config#readme",
   "main": "next.js",
+  "scripts": {
+    "version:patch": "npm version patch --git-tag-version false",
+    "version:minor": "npm version minor --git-tag-version false"
+  },
   "keywords": [
     "eslint",
     "prettier",
