@@ -8,6 +8,7 @@ module.exports = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'next/core-web-vitals'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -29,6 +30,7 @@ module.exports = {
         arrowParens: 'always',
         semi: true,
         endOfLine: 'auto',
+        plugins: ["prettier-plugin-tailwindcss"]
       },
     ],
     'jsx-a11y/alt-text': [
